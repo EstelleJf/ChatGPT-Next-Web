@@ -168,7 +168,16 @@ export function SideBar(props: { className?: string }) {
               }}
             />
           </div>
-          
+          <div className={styles["sidebar-action"]}>
+            
+              <IconButton icon={<SettingsIcon />} shadow />
+            
+          </div>
+          <div className={styles["sidebar-action"]}>
+            
+              <IconButton icon={<GithubIcon />} shadow />
+            
+          </div>
         </div>
         <div>
           <IconButton
