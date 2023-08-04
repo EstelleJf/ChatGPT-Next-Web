@@ -172,7 +172,7 @@ export function SideBar(props: { className?: string }) {
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
-          </div>
+          </div>dddddddddddd
         </div>
         <div>
           <IconButton
